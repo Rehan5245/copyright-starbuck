@@ -6,12 +6,18 @@
     display: flex;
 
 }
+.content .banner-section img{
+    width: 200px;
+
+}
 
 .navbar-bottom{
     height: 200px;
+    width: 90%;
     background-color: gray;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .navbar-bottom .navbar-map {
     
