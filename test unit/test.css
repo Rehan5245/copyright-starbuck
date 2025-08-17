@@ -1,0 +1,52 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  gap: 40px; /* jarak antar elemen */
+}
+
+.banner-section.reverse {
+  flex-direction: row-reverse; /* gambar kiri, text kanan */
+}
+
+
+.banner-img img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white; /* sesuaikan dengan background */
+}
+
+.banner-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
