@@ -37,24 +37,28 @@ background-color: green;
     color: black;
 }
 .content{
+    max-width: 100%;
     background-color: green;
-    margin: 0 auto;
 }
 
-.content .banner-section{
+.banner-section{
     display: flex;
-    
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 40px;
  }
 
-.content .banner-img img {
-    width: 100%;
-    height: 400px;
+ .banner-section.reverse {
+ /* gambar kiri, text kanan; */
+  flex-direction: row-reverse; /* Membalik urutan elemen */
+}
+.banner-img img {
+    margin: 10px;
+  max-width: 400px;
+  width: 100%;
 }
 
-.content .banner-img img#png{
-    margin-left: 40px;
-    
-}
 .navbar-bottom{
     height: 200px;
     width: 90%;

@@ -13,20 +13,21 @@
 }
 
 .banner-section.reverse {
-  flex-direction: row-reverse; /* gambar kiri, text kanan */
+ /* gambar kiri, text kanan; */
+  flex-direction: row-reverse; /* Membalik urutan elemen */
 }
 
 
-.banner-img img {
+/* .banner-img img {
   max-width: 500px;
   width: 100%;
   height: auto;
   border-radius: 8px;
-}
+} */
 
-.banner-text {
+/* .banner-text {
   flex: 1;
-}
+} */
 
 .banner-text h2 {
   font-size: 24px;
